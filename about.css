@@ -1,0 +1,27 @@
+.contact2 {
+    margin-top: 10%;
+}
+
+.contact-us {
+    background-color: rgb(194, 111, 138);
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.contact-section {
+    background: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: 10%;
+}

@@ -1,0 +1,31 @@
+.container-fluid {
+    background-color: rgb(194, 111, 138);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.fs-4 {
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 800;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.me-2 {
+    border-radius: 50%;
+}
+
+.me-2:hover {
+    transform: rotate(15deg);
+}

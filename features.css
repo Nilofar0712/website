@@ -1,0 +1,45 @@
+.feature-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 50px;
+    color: #dc3545;
+    /* Red theme for meat-related design */
+    margin-bottom: 15px;
+}
+
+.head {
+    margin-top: 100px;
+}
+
+
+/* Only functional fixes - doesn't affect your existing styles */
+
+body {
+    padding-top: 80px;
+    /* Prevents content from hiding behind fixed navbar */
+}
+
+
+/* Ensures dropdown works on mobile */
+
+@media (max-width: 991.98px) {
+    .dropdown-menu {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    .dropdown-item {
+        padding-left: 2rem;
+    }
+}
